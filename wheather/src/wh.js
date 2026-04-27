@@ -23,7 +23,7 @@ export default function Weather() {
   return (
     <div className='weather-container'>
         <input type='text' placeholder='City?' value={city} onChange={handlecitychange}/>
-        <button onClick={handleclick}>Wheather is</button>
+        <button onClick={handleclick}>Check Weather</button>
         {weather &&(
         <div className='weather-info'>
             <h2>{weather.name}</h2>
