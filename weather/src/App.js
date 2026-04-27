@@ -4,7 +4,7 @@ import Wheather from './wh';
 function App() {
   return (
     <div className="App">
-      <Wheather/> 
+      <Wheather />
     </div>
   );
 }
